@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+## [1.1.2] - 2026-11-17
+
 - add error handler
 
 ## [1.1.1] - 2026-11-17
@@ -65,7 +67,8 @@
 - Personal access token stored in the IDE password safe.
 - Setting to alert again when a retried pipeline fails again, instead of only once per pipeline.
 
-[Unreleased]: https://github.com/hpalma/gitlab-pipeline-notifier/compare/v1.1.1...HEAD
+[Unreleased]: https://github.com/hpalma/gitlab-pipeline-notifier/compare/v1.1.2...HEAD
+[1.1.2]: https://github.com/hpalma/gitlab-pipeline-notifier/compare/v1.1.1...v1.1.2
 [1.1.1]: https://github.com/hpalma/gitlab-pipeline-notifier/compare/v1.1.0...v1.1.1
 [1.1.0]: https://github.com/hpalma/gitlab-pipeline-notifier/compare/v1.0.1...v1.1.0
 [1.0.1]: https://github.com/hpalma/gitlab-pipeline-notifier/compare/v1.0.0...v1.0.1
