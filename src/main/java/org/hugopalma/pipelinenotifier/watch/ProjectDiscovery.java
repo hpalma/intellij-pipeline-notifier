@@ -159,7 +159,7 @@ public final class ProjectDiscovery {
 
     /** One entry per distinct git directory found under any content root of the project. */
     private static Set<VirtualFile> findGitDirs(Project project) {
-        VirtualFile[] contentRoots = ReadAction.computeCancellable(
+        VirtualFile[] contentRoots = ReadAction.computeBlocking(
                 () -> ProjectRootManager.getInstance(project).getContentRootsFromAllModules());
         LOG.debug("findGitDirs(" + project.getName() + "): " + contentRoots.length + " content root(s): "
                 + Arrays.stream(contentRoots).map(VirtualFile::getPath).toList());
