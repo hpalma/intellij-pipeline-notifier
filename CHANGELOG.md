@@ -4,6 +4,8 @@
 
 ## [Unreleased]
 
+- add error handler
+
 ## [1.1.1] - 2026-11-17
 
 - upgrade to platform 2026.3

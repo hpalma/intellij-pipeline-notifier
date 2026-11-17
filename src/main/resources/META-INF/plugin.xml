@@ -19,5 +19,7 @@
 
         <postStartupActivity
                 implementation="org.hugopalma.pipelinenotifier.startup.PipelineNotifierStartup"/>
+
+        <errorHandler implementation="com.intellij.diagnostic.JetBrainsMarketplaceErrorReportSubmitter"/>
     </extensions>
 </idea-plugin>
